@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    /* border: 2px solid mediumspringgreen; */
+    /* display: flex; */
+    width: 100%;
+}
+/* for navbar  */
+#navbar{
+    background-color:  #3b5998;
+    display: flex;
+    width: 100%; 
+    
+}
+
+#navbar .one label{
+    display: block;
+    color:white;
+}
+.one{
+    margin: 0px 10px 0px 10px ;
+}
+#navbar .left{
+   
+    display:flex;
+    justify-content:space-around;
+    /* border: 2px solid red; */
+    /* flex-grow: 7; */
+    justify-content: right;
+    padding-top: 21px;
+    
+}
+
+#brand{
+    
+    font-family: Arial;
+    list-style: none;
+    font-size: 60px;
+    color: white;
+    /* border: 1px solid red; */
+    flex-grow: 3;
+    /* margin-left: 25px; */
+    padding: 10px;
+    
+}
+
+/* for button */
+#navbar #login-btn{
+    
+    /* margin: 20px ; */
+    margin-top: 16px;
+    margin-bottom: 25px;
+    margin-right: 12px;
+}
+
+
+/* down Divs area  */
+
+.container-second{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+
+}
+.first-div{
+    width: 60%;
+    height: 900px;
+    background: linear-gradient(1deg, #D7DBE9, #FEFEFE);
+    /* position: absolute */
+}
+.first-div img{
+    padding: 5px 0px 0px 10px  ;
+    width: 800px;
+}
+
+.down-div{
+    width: 40%;
+    height: 900px;
+    /* border: 2px solid #3b5998; */
+    background: linear-gradient(1deg, #D7DBE9, #FEFEFE);
+}
+.down-div h1,p {
+    font-family: sans-serif;
+    height: 50px;
+    /* margin-top: 10px; */
+    padding: 20px px;
+}
+.input-name{
+    padding:10px 0px;
+}
+
+
+.input-name input{
+    font-size: 20px;
+    padding: 6px 7px;
+    width:31%
+}
+
+.input-2{
+    /* margin-top: 10px; */
+    /* width: 80%; */
+    padding: 10px 0px;
+    
+    
+
+}
+.input-2 input{
+    
+    padding:10px 0px;
+    font-size: 20px;
+    width: 68%;
+    
+    
+}
+.input-2 #inp{
+    margin-top: 10px;
+   
+}
+.birthday{
+    /* height: 70% */
+    margin-top: 25px;
+    padding-top: 7px;
+}
+.birthday .date-1 {
+    /* height: 10px; */
+    margin-bottom: 14px;
+    /* margin-bottom: 2px; */
+
+}
+.birthday .date-1 input{
+    padding: 4px 6px;
+
+}
+
+.last-paragraph{
+    padding: 30px 0px;
+}
+.last-paragraph a {
+    text-decoration: none;
+}
+
+.sign-up{
+    padding: 10px 40px;
+    background-color: rgb(92, 167, 92);
+    color: white;
+    border-radius: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 660px) {
+    #navbar .left {
+      background-color: 4px solid seagreen;
+    }
+  } */
